@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Taimur Khan, HR Manager</title>
+<meta name="description" content="Taimur Khan, Human Resources Manager (CHRM, CHRP) in Abu Dhabi with 19 years of HR experience, 17 of them in the UAE.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Figtree:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --bg:#F2F5F4; --surface:#FFFFFF; --ink:#13262B; --muted:#55686C; --line:#D5DEDC;
+  --accent:#0D6464; --accent-soft:#DDEDEA; --gold:#9C6F1E;
+  --display:"DM Serif Display",Georgia,"Times New Roman",serif;
+  --body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0E1A1C; --surface:#152427; --ink:#E6EEEC; --muted:#9AAEAD; --line:#27393C;
+  --accent:#5FC2B6; --accent-soft:#183B3A; --gold:#D9AE5B; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E1A1C; --surface:#152427; --ink:#E6EEEC; --muted:#9AAEAD; --line:#27393C;
+  --accent:#5FC2B6; --accent-soft:#183B3A; --gold:#D9AE5B; color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%}
+a{color:var(--accent);text-underline-offset:3px}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1040px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header.nav{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:14px}
+.mark{font-family:var(--display);font-size:22px;color:var(--ink);text-decoration:none}
+.mark span{color:var(--accent)}
+nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0;flex-wrap:wrap}
+nav a{color:var(--muted);text-decoration:none;font-size:15px;font-weight:500}
+nav a:hover{color:var(--ink)}
+@media (max-width:640px){nav ul{display:none}}
+.hero{padding-block:72px 56px}
+.eyebrow{font-family:var(--mono);font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold)}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(44px,8vw,84px);line-height:1.02;margin:14px 0 18px;text-wrap:balance}
+h1 em{color:var(--accent)}
+.lede{font-size:clamp(18px,2.2vw,21px);max-width:62ch;color:var(--muted);margin:0}
+.lede strong{color:var(--ink);font-weight:600}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 20px;border-radius:999px;font-weight:600;font-size:15px;text-decoration:none;border:1px solid var(--accent)}
+.btn.primary{background:var(--accent);color:var(--bg)}
+.btn.ghost{color:var(--accent)}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:14px;overflow:hidden;margin-top:52px}
+.fact{background:var(--surface);padding:20px 22px}
+.fact b{display:block;font-family:var(--display);font-weight:400;font-size:38px;line-height:1.1;font-variant-numeric:tabular-nums}
+.fact span{font-size:14px;color:var(--muted)}
+section{padding-block:64px;border-top:1px solid var(--line)}
+.sec{display:grid;grid-template-columns:200px minmax(0,1fr);gap:32px}
+@media (max-width:760px){.sec{grid-template-columns:minmax(0,1fr);gap:18px}}
+h2{font-family:var(--display);font-weight:400;font-size:clamp(30px,4vw,40px);line-height:1.1;margin:0;text-wrap:balance}
+.sec>div{min-width:0}
+.sec p{max-width:66ch;margin:0 0 14px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:0;padding:0}
+.chips li{padding:7px 14px;border-radius:999px;background:var(--accent-soft);color:var(--ink);font-size:14.5px;font-weight:500}
+.job{display:grid;grid-template-columns:150px minmax(0,1fr);gap:24px;padding-block:28px;border-bottom:1px solid var(--line)}
+.job:first-child{padding-top:0}
+.job:last-child{border-bottom:0}
+@media (max-width:560px){.job{grid-template-columns:minmax(0,1fr);gap:6px}}
+.when{font-family:var(--mono);font-size:13.5px;color:var(--muted);font-variant-numeric:tabular-nums;padding-top:4px}
+.job h3{font-size:20px;margin:0;line-height:1.3}
+.org{color:var(--accent);font-weight:500;margin:2px 0 12px}
+.job ul{margin:0;padding-left:20px;max-width:68ch}
+.job li{margin-bottom:6px}
+details{margin-top:8px}
+summary{cursor:pointer;color:var(--accent);font-weight:600;font-size:15px}
+.visa{display:flex;flex-wrap:wrap;gap:0;list-style:none;margin:20px 0 0;padding:0;counter-reset:s}
+.visa li{flex:1 1 140px;padding:16px 16px 14px;border-top:3px solid var(--accent);background:var(--surface);border-right:1px solid var(--line);font-size:14.5px;counter-increment:s}
+.visa li:last-child{border-right:0}
+.visa li::before{content:"Step " counter(s);display:block;font-family:var(--mono);font-size:12px;color:var(--gold);letter-spacing:.06em;text-transform:uppercase;margin-bottom:4px}
+.visa-note{font-size:14px;color:var(--muted);margin-top:10px}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:28px}
+.list{list-style:none;margin:0;padding:0}
+.list li{padding:12px 0;border-bottom:1px solid var(--line)}
+.list li:last-child{border-bottom:0}
+.list small{display:block;color:var(--muted);font-size:14px}
+h4{font-family:var(--mono);font-size:13px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);margin:0 0 10px}
+.contact{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:32px}
+.contact dl{display:grid;grid-template-columns:120px minmax(0,1fr);gap:12px 20px;margin:20px 0 0}
+.contact dt{font-family:var(--mono);font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;padding-top:3px}
+.contact dd{margin:0;overflow-wrap:anywhere}
+@media (max-width:480px){.contact dl{grid-template-columns:minmax(0,1fr);gap:2px}.contact dd{margin-bottom:12px}}
+footer{padding-block:32px;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<header class="nav"><div class="wrap">
+  <a class="mark" href="#top">Taimur Khan<span>.</span></a>
+  <nav aria-label="Sections"><ul>
+    <li><a href="#about">About</a></li><li><a href="#expertise">Expertise</a></li>
+    <li><a href="#experience">Experience</a></li><li><a href="#credentials">Credentials</a></li>
+    <li><a href="#contact">Contact</a></li></ul></nav>
+</div></header>
+
+<main id="top">
+<div class="wrap hero">
+  <div class="eyebrow">Human Resources Manager · CHRM · CHRP · Abu Dhabi</div>
+  <h1>People, policy and compliance, <em>run properly.</em></h1>
+  <p class="lede">I'm Taimur Khan. For <strong>19 years</strong> I've led HR, talent acquisition and administration, <strong>17 of them in the UAE</strong>, across EPC, manufacturing, logistics and recruitment. I build HR functions from scratch, keep them compliant with UAE Labour Law and MOHRE, and partner with leadership through growth and restructuring.</p>
+  <div class="cta">
+    <a class="btn primary" href="#contact">Get in touch</a>
+    <a class="btn ghost" href="https://www.linkedin.com/in/malik-taimur-khan-chrm-chrp-chrc-28565549" target="_blank" rel="noopener">LinkedIn profile ↗</a>
+  </div>
+  <div class="facts">
+    <div class="fact"><b>19</b><span>years in HR</span></div>
+    <div class="fact"><b>17</b><span>years in the UAE</span></div>
+    <div class="fact"><b>4</b><span>industries: EPC, manufacturing, logistics, recruitment</span></div>
+    <div class="fact"><b>5</b><span>languages spoken</span></div>
+  </div>
+</div>
+
+<section id="about"><div class="wrap sec">
+  <h2>About</h2>
+  <div>
+    <p>I've run the full HR cycle for contracting and engineering companies in Abu Dhabi: hiring and mobilising workforces, payroll and end-of-service settlements, performance management, employee relations, and the HR audits that come with MOHRE and free zone inspections.</p>
+    <p>My background started in recruitment for Oil &amp; Gas, construction and engineering clients, so I know hiring from the agency side as well as the employer side. Since 2017 I've led the HR function at Agility Engineering and Contracting, acting as HR Business Partner to senior leadership on growth, restructuring and change.</p>
+  </div>
+</div></section>
+
+<section id="expertise"><div class="wrap sec">
+  <h2>Expertise</h2>
+  <div>
+    <ul class="chips">
+      <li>Strategic HR &amp; Business Partnering</li><li>Talent Acquisition &amp; Executive Search</li>
+      <li>Manpower Planning &amp; Workforce Budgeting</li><li>UAE Labour Law &amp; MOHRE Compliance</li>
+      <li>Employee Relations &amp; Disciplinary Management</li><li>Payroll, Gratuity &amp; Final Settlements</li>
+      <li>Compensation &amp; Benefits</li><li>Performance Management (KPIs, Appraisals, PIPs)</li>
+      <li>Onboarding &amp; Induction</li><li>Visa Processing &amp; Mobilization</li>
+      <li>HR Policies &amp; Procedures</li><li>HRIS / ERP Management</li>
+      <li>Training Needs Analysis</li><li>Employee Engagement &amp; Retention</li>
+      <li>Succession Planning</li><li>HR Audits &amp; Reporting</li>
+      <li>Medical &amp; Life Insurance Administration</li><li>Cost Control &amp; Vendor Management</li>
+      <li>Start-ups &amp; Restructuring</li>
+    </ul>
+    <h4 style="margin-top:36px">The UAE employee lifecycle I manage end to end</h4>
+    <ol class="visa">
+      <li>Manpower approval &amp; offer</li>
+      <li>Entry permit &amp; medical test</li>
+      <li>Residence visa &amp; Emirates ID</li>
+      <li>Onboarding, probation &amp; confirmation</li>
+      <li>Renewals &amp; transfers</li>
+      <li>Cancellation &amp; final settlement</li>
+    </ol>
+    <p class="visa-note">Along with trade licence and establishment card renewals, medical and life insurance, and workmen's compensation.</p>
+  </div>
+</div></section>
+
+<section id="experience"><div class="wrap sec">
+  <h2>Experience</h2>
+  <div>
+    <article class="job">
+      <div class="when">May 2017 – Present</div>
+      <div>
+        <h3>Human Resources Manager</h3>
+        <p class="org">Agility Engineering and Contracting L.L.C. · Abu Dhabi</p>
+        <ul>
+          <li>Lead the full HR function for UAE operations and act as HR Business Partner to senior leadership on growth, restructuring and change.</li>
+          <li>Ensure compliance with UAE Labour Law, MOHRE and immigration rules; lead HR audits for MOHRE, free zone authorities and internal audit.</li>
+          <li>Prepare annual manpower plans and workforce budgets, and control HR and manpower costs.</li>
+          <li>Run end-to-end recruitment and mobilization, working with agencies and executive search firms.</li>
+          <li>Oversee payroll, overtime, gratuity, leave encashment and final settlements.</li>
+        </ul>
+        <details><summary>More responsibilities</summary>
+        <ul>
+          <li>Design compensation and benefits benchmarked to the UAE market; run salary reviews, bonus cycles and promotions within budget.</li>
+          <li>Lead performance management: goal setting, KPIs, probation reviews, appraisals and PIPs.</li>
+          <li>Handle grievances, disciplinary actions, investigations and dispute resolution.</li>
+          <li>Review and enforce HR policies, procedures and employee handbooks.</li>
+          <li>Conduct training needs analysis and coordinate internal and external training.</li>
+          <li>Track turnover, absenteeism and engagement; design engagement surveys and retention initiatives.</li>
+          <li>Manage HRIS/ERP, attendance, leave and shift scheduling.</li>
+          <li>Oversee visas, work permits, Emirates ID, trade licences and establishment cards.</li>
+          <li>Manage medical, life and workmen's compensation insurance, including renewals and tendering.</li>
+          <li>Ensure company accommodation and transport meet UAE labour, health and safety rules.</li>
+          <li>Report HR dashboards, KPIs and compliance updates to senior management; maintain org charts and succession plans.</li>
+        </ul></details>
+      </div>
+    </article>
+    <article class="job">
+      <div class="when">Apr 2012 – Mar 2017</div>
+      <div>
+        <h3>Senior HR Manager &amp; Recruitment Specialist</h3>
+        <p class="org">Etihad Emirates Mabani (EEM) Transporting &amp; General Contracting LLC · UAE</p>
+        <ul>
+          <li>Designed recruitment strategies and managed the full hiring lifecycle across local and international job platforms.</li>
+          <li>Set departmental, team and individual KPIs and coordinated annual appraisals linked to rewards.</li>
+          <li>Wrote job descriptions and supported job evaluation and grading for internal pay equity.</li>
+          <li>Prepared manpower budgets with the Group HR Manager and processed payroll on time.</li>
+          <li>Managed onboarding, probation confirmations, exit interviews and final settlements.</li>
+        </ul>
+      </div>
+    </article>
+    <article class="job">
+      <div class="when">Apr 2009 – Mar 2012</div>
+      <div>
+        <h3>HR &amp; Recruitment Specialist</h3>
+        <p class="org">Delma Engineering Projects Company L.L.C. · UAE</p>
+        <ul>
+          <li>Prepared offers and documents for visa and work permit processing, and coordinated pre-arrival logistics for new hires.</li>
+          <li>Arranged medical tests, Emirates ID, access cards and CICPA security passes.</li>
+          <li>Delivered orientation and induction programmes and tracked probation reviews.</li>
+          <li>Managed company sponsorship, labour contracts, renewals, cancellations and end-of-service settlements.</li>
+        </ul>
+      </div>
+    </article>
+    <article class="job">
+      <div class="when">Apr 2007 – Mar 2009</div>
+      <div>
+        <h3>Recruitment Specialist</h3>
+        <p class="org">Trans Arabian (Overseas Employment Promoters) Recruitment Company L.L.C.</p>
+        <ul>
+          <li>Recruited for Oil &amp; Gas, construction, engineering and manufacturing clients from sourcing to placement.</li>
+          <li>Headhunted through job portals, databases, referrals and talent mapping; ran interviews and assessments.</li>
+          <li>Negotiated with new clients and GCC associate offices and drafted recruitment agreements.</li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</div></section>
+
+<section id="credentials"><div class="wrap sec">
+  <h2>Credentials</h2>
+  <div class="grid2">
+    <div>
+      <h4>Education</h4>
+      <ul class="list"><li>Bachelor of Business Administration<small>Human Resource Management</small></li></ul>
+      <h4 style="margin-top:28px">Certifications</h4>
+      <ul class="list">
+        <li>Certified Human Resource Manager (CHRM)<small>ACI, USA</small></li>
+        <li>Certified Human Resource Professional (CHRP)<small>ACI, USA</small></li>
+        <li>ISO 9001:2008 Awareness &amp; Internal Auditor Program</li>
+        <li>IMS Awareness<small>Maxellence Management Consultancy, Abu Dhabi</small></li>
+        <li>IELTS<small>British Council and Australian Education Organization, Islamabad</small></li>
+        <li>First Aid &amp; Fire Fighting Training</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Tools</h4>
+      <ul class="list">
+        <li>HRIS / ERP systems</li>
+        <li>MS Excel<small>SUMIF, COUNTIF, VLOOKUP, HLOOKUP, Pivot Tables</small></li>
+        <li>Word, PowerPoint, Outlook, database management</li>
+      </ul>
+      <h4 style="margin-top:28px">Languages</h4>
+      <ul class="chips"><li>English</li><li>Arabic</li><li>Urdu</li><li>Hindi</li><li>Punjabi</li></ul>
+      <h4 style="margin-top:28px">How I work</h4>
+      <p style="margin:0">Leadership, clear communication, problem solving, critical thinking, teamwork and adaptability.</p>
+    </div>
+  </div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+  <div class="contact">
+    <h2>Let's talk</h2>
+    <p style="margin:10px 0 0;color:var(--muted);max-width:60ch">Open to HR leadership roles and HR Business Partner opportunities in the UAE.</p>
+    <dl>
+      <dt>Email</dt><dd><a href="mailto:king_taimur@yahoo.com">king_taimur@yahoo.com</a></dd>
+      <dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/malik-taimur-khan-chrm-chrp-chrc-28565549" target="_blank" rel="noopener">linkedin.com/in/malik-taimur-khan</a></dd>
+      <dt>Location</dt><dd>Abu Dhabi, United Arab Emirates</dd>
+    </dl>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">© 2026 Taimur Khan · Human Resources Manager, Abu Dhabi</div></footer>
+</body>
+</html>
